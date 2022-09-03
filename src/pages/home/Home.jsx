@@ -6,6 +6,7 @@ import Searcher from './components/Searcher';
 import Select from './Components/Select';
 import CountriesContext from '../../contexts/countries/CountriesContext';
 import LoadingScreen from './../../components/LoadingScreen';
+import ToTopButton from './components/ToTopButton';
 
 const Body = tw.div`
    bg-skin-base
@@ -57,6 +58,7 @@ const Home = () => {
 
    return (
       <Body>
+         <ToTopButton />
          <Top>
             <Searcher setter={setFilter} />
             <Select />

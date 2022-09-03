@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import tw from 'twin.macro';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/home/Home';
 import CountriesState from './contexts/countries/CountriesState';

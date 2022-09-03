@@ -7,5 +7,9 @@ export default defineConfig({
       babel: {
          plugins: ['babel-plugin-macros', 'babel-plugin-styled-components']
       }
-   })]
+   })],
+   base: '/Countries-Rest/',
+   build: {
+      sourcemap: true,
+   }
 })
